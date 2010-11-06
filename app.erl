@@ -1,6 +1,9 @@
 -module(app).
 
--export([print/0]).
+-export([start/0]).
+
+start() ->
+  print().
 
 print() ->
   io:format("Wait for client...~n").
