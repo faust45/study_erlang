@@ -3,7 +3,12 @@
 -export([start/0]).
 
 start() ->
-  print().
-
+  print(),
+prin().
 print() ->
   io:format("Wait for client...~n").
+
+  
+
+prin() ->
+  io:format("Wait for...~n").
