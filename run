@@ -1,0 +1,2 @@
+erl -compile app
+erl -noshell -s app start -s init stop
